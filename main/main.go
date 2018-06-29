@@ -7,6 +7,8 @@ import (
 	"strings"
 )
 
+var FILE_PATH = GetPath()
+
 func main() {
 	fmt.Println("Welcome to Godow! A rudimentary download manager written in golang!")
 	PrintCommands()
@@ -17,6 +19,7 @@ func main() {
 		input, _ = reader.ReadString('\n')
 		input = strings.TrimRight(input, "\n")
 		switch input {
+		case "3":
 
 		}
 	}
